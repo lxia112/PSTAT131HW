@@ -12,6 +12,8 @@ library(tidyverse)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Liangchen Xia
+
 # Question 1
 
 Define supervised and unsupervised learning. What are the difference(s) between them?
