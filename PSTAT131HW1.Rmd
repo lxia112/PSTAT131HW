@@ -124,11 +124,13 @@ corrplot(cor(mpg%>%select(displ,cyl,cty,hwy)),type='lower')
 In this question, 
 we can see the 
 
- - `cyl` is positively correlated with `displ` and `cyl`.
+ - All variables positively correlated with themselves.
+
+ - `cyl` is positively correlated with `displ`.
  
- - `cty` is negatively correlated with the `displ` and `cyl` and positively correlated with `cty`.
+ - `cty` is negatively correlated with the `displ` and `cyl`.
  
- - `hwy` is negatively correlated with the `displ` and `cyl` and positively correlated with `cty` and `hwy`. 
+ - `hwy` is negatively correlated with the `displ` and `cyl` and positively correlated with `cty`. 
 
 We realize the correlations between these variables are strong, so I believe it is make sense.
 
